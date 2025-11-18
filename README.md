@@ -18,7 +18,7 @@ A curated list of 150 LeetCode problems covering all essential data structures a
 ### Arrays & Hashing (9 problems)
 
 | # | Problem | Difficulty | LeetCode Link | Solutions |
-|---|---------|------------|---------------------------|
+| --- | --------- | ---------- | -------------- | --------- |
 | 1 | Contains Duplicate | Easy | [LeetCode 217](https://leetcode.com/problems/contains-duplicate/) | [Java](java/ContainsDuplicate.java) [Python](python/contains_duplicate.py) |
 | 2 | Valid Anagram | Easy | [LeetCode 242](https://leetcode.com/problems/valid-anagram/) |
 | 3 | Two Sum | Easy | [LeetCode 1](https://leetcode.com/problems/two-sum/) |
