@@ -5,6 +5,31 @@ A curated list of 150 LeetCode problems covering all essential data structures a
 ## Practice Link
 🔗 [NeetCode 150 Practice Problems](https://neetcode.io/practice/practice/neetcode150)
 
+## Repository Structure
+
+This repository supports multiple collaborators. Each user has their own directory where they can organize their solutions:
+
+```
+├── kbhatiya999/
+│   ├── java/
+│   └── python/
+├── ACakshay/
+│   ├── java/
+│   └── python/
+└── README.md
+```
+
+### Collaborators
+- **kbhatiya999** - Solutions in `kbhatiya999/`
+- **ACakshay** - Solutions in `ACakshay/`
+
+### Adding Your Solutions
+
+When adding solutions:
+1. Create your solution files in your user directory (e.g., `kbhatiya999/java/` or `ACakshay/python/`)
+2. Follow the naming convention: `ProblemName.java` or `problem_name.py`
+3. Update this README to link to your solutions in the Solutions column
+
 ## Progress Tracker
 - **Easy**: 0 / 28
 - **Medium**: 0 / 101  
@@ -19,8 +44,8 @@ A curated list of 150 LeetCode problems covering all essential data structures a
 
 | # | Problem | Difficulty | LeetCode Link | Solutions |
 | --- | --------- | ---------- | -------------- | --------- |
-| 1 | Contains Duplicate | Easy | [LeetCode 217](https://leetcode.com/problems/contains-duplicate/) | [Java](java/ContainsDuplicate.java) [Python](python/contains_duplicate.py) |
-| 2 | Valid Anagram | Easy | [LeetCode 242](https://leetcode.com/problems/valid-anagram/) |
+| 1 | Contains Duplicate | Easy | [LeetCode 217](https://leetcode.com/problems/contains-duplicate/) | [kbhatiya999: Java](kbhatiya999/java/ContainsDuplicate.java) [kbhatiya999: Python](kbhatiya999/python/contains_duplicate.py) |
+| 2 | Valid Anagram | Easy | [LeetCode 242](https://leetcode.com/problems/valid-anagram/) | [kbhatiya999: Java](kbhatiya999/java/ValidAnagram.java) [kbhatiya999: Python](kbhatiya999/python/valid_anagram.py) |
 | 3 | Two Sum | Easy | [LeetCode 1](https://leetcode.com/problems/two-sum/) |
 | 4 | Group Anagrams | Medium | [LeetCode 49](https://leetcode.com/problems/group-anagrams/) |
 | 5 | Top K Frequent Elements | Medium | [LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/) |
@@ -266,7 +291,18 @@ A curated list of 150 LeetCode problems covering all essential data structures a
 
 ## Contributing
 
-Feel free to add your solutions to this repository! Create a folder structure based on the problem categories and include your solution files.
+Feel free to add your solutions to this repository! 
+
+**For Collaborators:**
+1. Add your solutions in your user directory (e.g., `kbhatiya999/java/` or `ACakshay/python/`)
+2. Follow the naming convention: `ProblemName.java` or `problem_name.py`
+3. Update the Solutions column in the README to link to your solutions
+4. Include your GitHub username as the author in file comments
+
+**Adding a New Collaborator:**
+1. Create a new directory with your GitHub username
+2. Add subdirectories for languages you'll use (e.g., `java/`, `python/`, `cpp/`, etc.)
+3. Add your name to the Collaborators section above
 
 ## License
 
