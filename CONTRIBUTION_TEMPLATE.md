@@ -26,6 +26,7 @@ username/
 All files must follow this naming pattern:
 - **Python files**: `<problem_number>_<problem_name>.py`
 - **Documentation files**: `<problem_number>_<problem_name>.md`
+- - **Doubt/Questions files**: `<problem_number>_<problem_name>_doubt.md` (optional)
 
 **Examples:**
 - `1_contains_duplicate.py` and `1_contains_duplicate.md`
@@ -185,6 +186,77 @@ Explanation of the approach...
 ## Tags
 Array, Hash Table, String
 ```
+
+
+## Doubt/Questions File Requirements
+
+For each problem, you can optionally create a `*_doubt.md` file to document any doubts, questions, or challenging aspects of the problem.
+
+**File Naming:**
+- `<problem_number>_<problem_name>_doubt.md`
+- **Example:** `1_contains_duplicate_doubt.md`
+
+**File Content:**
+
+Each doubt file should contain:
+
+### Purpose
+This file is for documenting:
+- Confusing aspects of the problem statement
+- Edge cases that were difficult to identify
+- Common mistakes and pitfalls
+- Questions about the optimal approach
+- Insights learned while solving
+
+### Recommended Structure
+
+```markdown
+# Problem XXX: Problem Name - Doubts & Questions
+
+## Questions I Had
+1. **Question 1**: Description of the question
+   - How I resolved it
+   - Key learning
+
+2. **Question 2**: Description of the question
+   - How I resolved it
+   - Key learning
+
+## Confusing Parts
+- **Confusion 1**: What was confusing
+  - Clarification
+  - Why it matters
+
+- **Confusion 2**: What was confusing
+  - Clarification
+  - Why it matters
+
+## Edge Cases I Missed
+- Edge case 1 and how to handle it
+- Edge case 2 and how to handle it
+
+## Common Mistakes to Avoid
+1. Mistake 1 - how to avoid it
+2. Mistake 2 - how to avoid it
+
+## Resources That Helped
+- Resource 1 and why it was useful
+- Resource 2 and why it was useful
+```
+
+### Optional but Recommended
+This file is **optional** for each problem, but highly recommended for:
+- Complex problems where multiple approaches exist
+- Problems where the solution wasn't immediately obvious
+- Problems where you struggled initially
+- Problems with tricky edge cases
+
+### Quality Standards
+- Honest documentation of your learning process
+- Clear explanation of what was confusing and why
+- Practical solutions to resolve doubts
+- Helpful for others facing similar challenges
+
 
 ## How to Contribute
 
