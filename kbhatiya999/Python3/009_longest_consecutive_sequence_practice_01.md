@@ -60,4 +60,48 @@ max_length = max(current_count, max_length)  # CORRECT
 
 ## Attempt 2
 
-**Status**: TBD
+**Status**: TAccepted ✓
+
+### Code
+```python
+class Solution:
+    def longestConsecutive(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
+        
+        # Create a set for O(1) lookup
+        num_set = set(nums)
+        max_length = 0
+        
+        for num in num_set:
+            # start of a sequence
+            if num - 1 in num_set:
+                continue
+            
+            current_num = num
+            current_count = 1
+            
+            # Count Consecutive number
+            while current_num + 1 in num_set:
+                current_num += 1
+                current_count += 1
+            
+            max_length = max(current_count, max_length)  # FIXED: Use current_count instead of current_num
+        
+        return max_length
+```
+
+### Fix Applied
+**Line 20**: Changed from `max_length = max(current_num, max_length)` to `max_length = max(current_count, max_length)`
+
+This correctly compares the length of the consecutive sequence (`current_count`) with the maximum length found so far, instead of comparing the last number in the sequence (`current_num`).
+
+### Result
+- **Status**: Accepted
+- **Test Cases**: 84/84 passed
+- **Runtime**: 56 ms (Beats 31.60%)
+- **Memory**: 36.69 MB (Beats 50.01%)
+
+### Complexity Analysis
+- **Time Complexity**: O(n) - Each number is visited at most twice (once in the for loop, once in the while loop)
+- **Space Complexity**: O(n) - For the set
