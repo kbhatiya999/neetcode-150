@@ -69,7 +69,7 @@ When adding solutions:
 | # | Problem | Difficulty | LeetCode Link |
 |---|---------|------------|---------------|
 | 15 | Best Time to Buy and Sell Stock | Easy | [LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) [kbhatiya999: Python](kbhatiya999/Python3/015_best_time_to_buy_and_sell_stock.py) |
-| 16 | Longest Substring Without Repeating Characters | Medium | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+| 16 | Longest Substring Without Repeating Characters | Medium | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [kbhatiya999: Python](kbhatiya999/Python3/016_longest_substring_without_repeating_characters.py) 
 | 17 | Longest Repeating Character Replacement | Medium | [LeetCode 424](https://leetcode.com/problems/longest-repeating-character-replacement/) |
 | 18 | Permutation in String | Medium | [LeetCode 567](https://leetcode.com/problems/permutation-in-string/) |
 | 19 | Minimum Window Substring | Hard | [LeetCode 76](https://leetcode.com/problems/minimum-window-substring/) |
