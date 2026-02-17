@@ -5,6 +5,16 @@ Given an unsorted array of integers `nums`, return the length of the longest con
 
 You must write an algorithm that runs in **O(n)** time.
 
+## Key Clarifications
+
+**Important:** The consecutive sequence does NOT need to start from 0 or 1. It can start from any integer.
+
+- A "consecutive sequence" means numbers that follow each other with a difference of 1 (e.g., 5,6,7,8 or 100,101,102)
+- The problem asks for the LENGTH of the longest such sequence, not the sequence itself
+- Example: `[100, 4, 200, 1, 3, 2]` contains sequences `[1,2,3,4]` (length 4) and `[100]` (length 1) and `[200]` (length 1)
+- Example: `[15, 13, 14, 12, 16]` has the sequence `[12,13,14,15,16]` with length 5
+
+
 ## Examples
 
 ### Example 1
