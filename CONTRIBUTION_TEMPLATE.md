@@ -309,3 +309,107 @@ If you have questions about the contribution process, please:
 - Review the repository structure
 
 Thank you for contributing! 🚀
+
+## Practice Files (Optional)
+
+For those who want to document their learning journey and practice attempts, you can optionally create practice files to track different attempts at solving a problem.
+
+### File Naming Convention
+
+- **Practice files**: `__practice_01.md`, `__practice_02.md`, etc.
+- **Example:** `001_contains_duplicate_practice_01.md`
+
+### When to Create Practice Files
+
+Practice files are useful for:
+- **Tracking multiple attempts** - Document your first attempt and what went wrong
+- **Learning from mistakes** - Record the bug, the fix, and the lesson learned
+- **Progressive improvement** - Show how you refined your solution over time
+- **Educational value** - Help others learn from your debugging process
+
+### Practice File Structure
+
+Each practice file should document:
+
+1. **Attempt Number** - Which attempt is this?
+   - Code implementation
+   - What worked and what didn't
+   - Status (Wrong Answer, Time Limit Exceeded, Accepted, etc.)
+
+2. **Issue/Bug Found** (if applicable)
+   - Description of the problem
+   - Root cause analysis
+   - Example that demonstrates the bug
+
+3. **Fix Applied**
+   - What was changed
+   - Why the fix works
+   - Complexity improvement (if any)
+
+4. **Result**
+   - Final status (Accepted)
+   - Performance metrics (Runtime, Memory)
+   - Test cases passed
+
+### Example Practice File Structure
+
+```markdown
+# Problem XXX: Problem Name - Practice
+
+## Attempt 1
+
+### Code
+\`\`\`python
+# Your buggy code here
+\`\`\`
+
+### Issue
+**Bug**: Brief description of the bug
+
+**Problem**: 
+- Detailed explanation
+- Example that fails
+
+**Expected Output**: Correct result
+**Actual Output**: Incorrect result
+
+### Fix
+Correct implementation with explanation
+
+---
+
+## Attempt 2
+
+### Code
+\`\`\`python
+# Fixed code here
+\`\`\`
+
+### Result
+- **Status**: Accepted ✓
+- **Test Cases**: XX/XX passed
+- **Runtime**: XXX ms
+- **Memory**: XXX MB
+- **Complexity**: O(n) time, O(n) space
+\`\`\`
+
+### Key Learnings
+- What you learned from attempt 1
+- Why the fix worked
+- Edge cases to remember
+```
+
+### Quality Standards for Practice Files
+
+- ✅ Honest documentation of your learning process
+- ✅ Clear explanation of what went wrong and why
+- ✅ Code should be properly formatted and commented
+- ✅ Multiple attempts if available
+- ✅ Include test cases and performance metrics
+- ✅ Share insights that could help others
+
+### Benefits
+
+- **For You**: Track your growth and understand your common mistakes
+- **For Others**: Learn from real debugging examples and problem-solving approaches
+- **For the Community**: Build a knowledge base of learning journeys, not just final solutions
