@@ -44,31 +44,31 @@ When adding solutions:
 
 | # | Problem | Difficulty | LeetCode Link | Solutions |
 | --- | --------- | ---------- | -------------- | --------- |
-| 1 | Contains Duplicate | Easy | [LeetCode 217](https://leetcode.com/problems/contains-duplicate/) | [kbhatiya999: Java](kbhatiya999/java/ContainsDuplicate.java) [kbhatiya999: Python](kbhatiya999/python/contains_duplicate.py) |
-| 2 | Valid Anagram | Easy | [LeetCode 242](https://leetcode.com/problems/valid-anagram/) | [kbhatiya999: Java](kbhatiya999/java/ValidAnagram.java) [kbhatiya999: Python](kbhatiya999/python/valid_anagram.py) |
-| 3 | Two Sum | Easy | [LeetCode 1](https://leetcode.com/problems/two-sum/) |
-| 4 | Group Anagrams | Medium | [LeetCode 49](https://leetcode.com/problems/group-anagrams/) |
-| 5 | Top K Frequent Elements | Medium | [LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/) |
-| 6 | Encode and Decode Strings | Medium | [LeetCode 271](https://leetcode.com/problems/encode-and-decode-strings/) |
-| 7 | Product of Array Except Self | Medium | [LeetCode 238](https://leetcode.com/problems/product-of-array-except-self/) |
-| 8 | Valid Sudoku | Medium | [LeetCode 36](https://leetcode.com/problems/valid-sudoku/) |
-| 9 | Longest Consecutive Sequence | Medium | [LeetCode 128](https://leetcode.com/problems/longest-consecutive-sequence/) |
+| 1 | Contains Duplicate | Easy | [LeetCode 217](https://leetcode.com/problems/contains-duplicate/) | [kbhatiya999: Python](kbhatiya999/Python3/001_contains_duplicate.py) |
+| 2 | Valid Anagram | Easy | [LeetCode 242](https://leetcode.com/problems/valid-anagram/) | [kbhatiya999: Python](kbhatiya999/Python3/002_valid_anagram.py) |(kbhatiya999/java/ValidAnagram.java) [kbhatiya999: Python](kbhatiya999/python/valid_anagram.py) |
+| 3 | Two Sum | Easy | [LeetCode 1](https://leetcode.com/problems/two-sum/) [kbhatiya999: Python](kbhatiya999/Python3/003_two_sum.py) |
+| 4 | Group Anagrams | Medium | [LeetCode 49](https://leetcode.com/problems/group-anagrams/) [kbhatiya999: Python](kbhatiya999/Python3/004_group_anagrams.py) |
+| 5 | Top K Frequent Elements | Medium | [LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/) [kbhatiya999: Python](kbhatiya999/Python3/005_top_k_frequent_elements.py) |
+| 6 | Encode and Decode Strings | Medium | [LeetCode 271](https://leetcode.com/problems/encode-and-decode-strings/) [kbhatiya999: Python](kbhatiya999/Python3/006_encode_and_decode_strings.py) |
+| 7 | Product of Array Except Self | Medium | [LeetCode 238](https://leetcode.com/problems/product-of-array-except-self/) [kbhatiya999: Python](kbhatiya999/Python3/007_product_of_array_except_self.py) |
+| 8 | Valid Sudoku | Medium | [LeetCode 36](https://leetcode.com/problems/valid-sudoku/) [kbhatiya999: Python](kbhatiya999/Python3/008_valid_sudoku.py) |
+| 9 | Longest Consecutive Sequence | Medium | [LeetCode 128](https://leetcode.com/problems/longest-consecutive-sequence/) [kbhatiya999: Python](kbhatiya999/Python3/009_longest_consecutive_sequence.py) |
 
 ### Two Pointers (5 problems)
 
 | # | Problem | Difficulty | LeetCode Link |
 |---|---------|------------|---------------|
-| 10 | Valid Palindrome | Easy | [LeetCode 125](https://leetcode.com/problems/valid-palindrome/) |
-| 11 | Two Sum II - Input Array Is Sorted | Medium | [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
-| 12 | 3Sum | Medium | [LeetCode 15](https://leetcode.com/problems/3sum/) |
-| 13 | Container With Most Water | Medium | [LeetCode 11](https://leetcode.com/problems/container-with-most-water/) |
-| 14 | Trapping Rain Water | Hard | [LeetCode 42](https://leetcode.com/problems/trapping-rain-water/) |
+| 10 | Valid Palindrome | Easy | [LeetCode 125](https://leetcode.com/problems/valid-palindrome/) [kbhatiya999: Python](kbhatiya999/Python3/010_valid_palindrome.py) |
+| 11 | Two Sum II - Input Array Is Sorted | Medium | [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-i [kbhatiya999: Python](kbhatiya999/Python3/011_two_sum_ii_input_array_is_sorted.py) |sorted/) |
+| 12 | 3Sum | Medium | [LeetCode 15](https://leetcode.com/problems/3sum/) [kbhatiya999: Python](kbhatiya999/Python3/012_three_sum.py) |
+| 13 | Container With Most Water | Medium | [LeetCode 11](https://leetcode.com/problems/container-with-most-water/) [kbhatiya999: Python](kbhatiya999/Python3/013_container_with_most_water.py) |
+| 14 | Trapping Rain Water | Hard | [LeetCode 42](https://leetcode.com/problems/trapping-rain-water/) [kbhatiya999: Python](kbhatiya999/Python3/014_trapping_rain_water.py) |
 
 ### Sliding Window (6 problems)
 
 | # | Problem | Difficulty | LeetCode Link |
 |---|---------|------------|---------------|
-| 15 | Best Time to Buy and Sell Stock | Easy | [LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
+| 15 | Best Time to Buy and Sell Stock | Easy | [LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) [kbhatiya999: Python](kbhatiya999/Python3/015_best_time_to_buy_and_sell_stock.py) |
 | 16 | Longest Substring Without Repeating Characters | Medium | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
 | 17 | Longest Repeating Character Replacement | Medium | [LeetCode 424](https://leetcode.com/problems/longest-repeating-character-replacement/) |
 | 18 | Permutation in String | Medium | [LeetCode 567](https://leetcode.com/problems/permutation-in-string/) |
