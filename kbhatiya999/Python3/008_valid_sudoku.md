@@ -50,6 +50,10 @@ The key is to check each constraint as we iterate through the board:
 
 - We don't need to solve the Sudoku, just validate it
 - Box index can be calculated as `(row // 3, col // 3)` or `row // 3 * 3 + col // 3`
+-   - **Box Index Explanation**: The 3x3 box index divides the 9x9 grid into 9 boxes (3 rows and 3 columns of boxes). For any cell at position (row, col):
+    -     - Box row: `row // 3` (0-2 representing top, middle, bottom rows of boxes)
+    -     - Box col: `col // 3` (0-2 representing left, middle, right columns of boxes)
+    -     - Combined index: `row // 3 * 3 + col // 3` gives a unique number 0-8 for each box
 - Using sets makes lookup O(1)
 - We can optimize space by using a 2D set or dictionary
 
