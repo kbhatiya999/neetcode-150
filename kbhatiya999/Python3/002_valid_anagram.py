@@ -43,6 +43,7 @@ class Solution:
         char_count = {}
         
         for char in s:
+            # Get the value for 'char' from the 'char_count' dictionary, defaulting to zero if it doesn't exist, then add one.
             char_count[char] = char_count.get(char, 0) + 1
         
         for char in t:
